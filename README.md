@@ -11,6 +11,7 @@ git init
 # 3. 添加所有文件并提交
 
 git add *
+
 git commit -m "first commit"
 
 # 4. 重命名分支为 main（如果默认是 master）
@@ -36,5 +37,7 @@ git push -u origin main
 # 日常更新三步曲
 
 git add *
+
 git commit -m "描述这次改了什么"
+
 git push
