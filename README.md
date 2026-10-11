@@ -28,7 +28,9 @@ git push -u origin main
 # 若github上传失败 去Clash找代理端口号6666
 
 git config --global http.proxy http://127.0.0.1:6666
+
 git config --global https.proxy http://127.0.0.1:6666
+
 git push -u origin main
 
 # 日常更新三步曲
